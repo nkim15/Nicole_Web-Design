@@ -1,13 +1,8 @@
 style.css
 
-/* @font-face {
-    font-family: 'monde';
-    src: url(assets/monde-regular.otf);
-} */
-
 body {
-    background-color: green;
-    font-family: 'monde', sans-serif;
+    background-color: red;
+    font-family: 'Helvetica', sans-serif;
 }
 
 h1 {
