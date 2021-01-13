@@ -5,6 +5,8 @@ body {
     transform: skew(-15deg);
     transform: translate(200px, 20%);
     transform: rotate(45deg);
+    transform: scale(0.7);
+
 }
 
 div {
@@ -12,20 +14,18 @@ div {
     margin: 0 auto;
     text-align: center;
     animation: colors 3s linear 0s normal running;
+    animation: rotate 3s linear 1s  3 normal running;
 }
 
 p:hover{
     background-color:red;
-    color:green;
+    color:salmon;
 }
-@keyframes colors{
+@keyframes rotate{
     0%{
-        background-color: red;
-        transform:skew(-10deg, -15deg) scale(0.8) trnaslate(100px, 20%); 
-        
+        transform: rotate(0deg);
     }
     100%{
-        background-color: royalblue;
-        transform:skew(-15deg, -15deg) scale(0.7) trnaslate(200px, 20%);
+        transform: rotate(-45deg);
     }
 }
